@@ -15,7 +15,7 @@ C:/Users/GAMER/Documents/GitHub/crut/Crut/crutpro
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56941
+58038
 Successfully changed project path to: C:/Users/GAMER/Documents/GitHub/crut/Crut/crutpro
 C:/Users/GAMER/Documents/GitHub/crut/Crut/crutpro
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,17 +49,17 @@ C:/Users/GAMER/Documents/GitHub/crut/Crut/crutpro
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [73044]  Target information:
+Player connection [67672]  Target information:
 
-Player connection [73044]  * "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 3882019723 [EditorId] 3882019723 [Version] 1048832 [Id] WindowsEditor(7,WIN-VF5N89HE4U2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [67672]  * "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 2939342262 [EditorId] 2939342262 [Version] 1048832 [Id] WindowsEditor(7,WIN-VF5N89HE4U2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [73044]  * "[IP] 26.31.232.68 [Port] 0 [Flags] 2 [Guid] 3882019723 [EditorId] 3882019723 [Version] 1048832 [Id] WindowsEditor(7,WIN-VF5N89HE4U2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [67672]  * "[IP] 26.31.232.68 [Port] 0 [Flags] 2 [Guid] 2939342262 [EditorId] 2939342262 [Version] 1048832 [Id] WindowsEditor(7,WIN-VF5N89HE4U2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [73044] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [73044] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [67672] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [67672] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-Refreshing native plugins compatible for Editor in 11.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.59f1 (630718f645a5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Resources/UnitySubsystems
@@ -75,44 +75,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009976 seconds.
-- Loaded All Assemblies, in  0.548 seconds
+Registered in 0.010513 seconds.
+- Loaded All Assemblies, in  0.510 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.405 seconds
-Domain Reload Profiling: 951ms
+- Finished resetting the current domain, in  0.418 seconds
+Domain Reload Profiling: 927ms
 	BeginReloadAssembly (163ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
+	RebuildCommonClasses (49ms)
 	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (86ms)
-	LoadAllAssembliesAndSetupDomain (221ms)
-		LoadAssemblies (161ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (160ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (218ms)
-			TypeCache.Refresh (216ms)
-				TypeCache.ScanAssembly (195ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (174ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (406ms)
+	FinalizeReload (418ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (330ms)
+		SetupLoadedEditorAssemblies (348ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (230ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,131 +121,51 @@ Domain Reload Profiling: 951ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.922 seconds
+- Loaded All Assemblies, in  0.866 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.854 seconds
-Domain Reload Profiling: 1774ms
-	BeginReloadAssembly (248ms)
+- Finished resetting the current domain, in  0.805 seconds
+Domain Reload Profiling: 1668ms
+	BeginReloadAssembly (227ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (53ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (49ms)
 	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (533ms)
-		LoadAssemblies (410ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (511ms)
+		LoadAssemblies (398ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (266ms)
-			TypeCache.Refresh (237ms)
-				TypeCache.ScanAssembly (216ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (199ms)
 			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (855ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (805ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (631ms)
+		SetupLoadedEditorAssemblies (604ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (482ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (452ms)
 			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 5.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3605.
-Memory consumption went from 129.7 MB to 129.6 MB.
-Total: 5.865400 ms (FindLiveObjects: 0.422200 ms CreateObjectMapping: 0.174200 ms MarkObjects: 5.167100 ms  DeleteObjects: 0.100800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 360832.466628 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(d9d6583a54999604e8006e7daf7addef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(d9d6583a54999604e8006e7daf7addef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '5c8a2ba810fe651939a50da37cc8b49a') in 0.019789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 31.178871 seconds.
-  path: Assets/TerrainGer.asset
-  artifactKey: Guid(d9d6583a54999604e8006e7daf7addef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainGer.asset using Guid(d9d6583a54999604e8006e7daf7addef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '0e8c37a4b440ebe63ed0c68d51cd2f1b') in 0.009634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.681 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.121 seconds
-Domain Reload Profiling: 1799ms
-	BeginReloadAssembly (297ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (271ms)
-		LoadAssemblies (403ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (30ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1121ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (534ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (395ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 4.34 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 6.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.4 KB). Loaded Objects now: 3610.
-Memory consumption went from 128.6 MB to 128.6 MB.
-Total: 3.890100 ms (FindLiveObjects: 0.321800 ms CreateObjectMapping: 0.182700 ms MarkObjects: 3.335500 ms  DeleteObjects: 0.049000 ms)
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3608.
+Memory consumption went from 130.1 MB to 130.0 MB.
+Total: 4.072000 ms (FindLiveObjects: 0.321200 ms CreateObjectMapping: 0.179600 ms MarkObjects: 3.464800 ms  DeleteObjects: 0.105200 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -256,148 +176,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/TerrainTexture.cs: 94ce3f30046219d18726e2c690e609c9 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0cab743d6db2a880e4bb4fb30281d483 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 180.208553 seconds.
-  path: Assets/Better Landscape Pack Vol.1
-  artifactKey: Guid(02608810872028743b99f7b0e1000540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1 using Guid(02608810872028743b99f7b0e1000540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '01d22d0a9c40f665a3c0f0e5796f569b') in 0.002748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.474892 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs
-  artifactKey: Guid(e02fb4c03fe84cb47a436dfc4127442b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs using Guid(e02fb4c03fe84cb47a436dfc4127442b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '02289203d7d05ba9357771bb6e0c34da') in 0.000653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.051947 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_1.prefab
-  artifactKey: Guid(9130f7949d6ec0944a43e914f3b2840a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_1.prefab using Guid(9130f7949d6ec0944a43e914f3b2840a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '4aeb276a410dfb2d6335dc9b7da9b5c5') in 0.036676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.001832 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_4.prefab
-  artifactKey: Guid(48d30b40064f0624380d41f6f14b6077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_4.prefab using Guid(48d30b40064f0624380d41f6f14b6077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '3016b93732449235fd05566dcc046dd7') in 0.002172 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.019856 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_10.prefab
-  artifactKey: Guid(a95234528bc07aa428622b7369a05374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_10.prefab using Guid(a95234528bc07aa428622b7369a05374) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'af6f41992643e4c0c609b4ef133adee4') in 0.002332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.022703 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_14.prefab
-  artifactKey: Guid(f0df7577834ce2f4db2b4a27e75af19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_14.prefab using Guid(f0df7577834ce2f4db2b4a27e75af19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '470e04717eddc72f335d17acb6d201f8') in 0.002194 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.020346 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_18.prefab
-  artifactKey: Guid(3916501111895e348b4b71bb92cd57b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_18.prefab using Guid(3916501111895e348b4b71bb92cd57b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '43569527246ab725983de2730a556197') in 0.002482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.021477 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_21.prefab
-  artifactKey: Guid(4cbc10016eed91a4a9c4b7d285227568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_21.prefab using Guid(4cbc10016eed91a4a9c4b7d285227568) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'c86020e3d2f80cbb7171cd775cbff58d') in 0.002173 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_25.prefab
-  artifactKey: Guid(47dd86f045d0bf24c9dcb86616770aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_25.prefab using Guid(47dd86f045d0bf24c9dcb86616770aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '685a826c344a41b370ae14fd4d032c6e') in 0.001600 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_16.prefab
-  artifactKey: Guid(9ed9e60bd8537924faf2bdb3c78e32e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_16.prefab using Guid(9ed9e60bd8537924faf2bdb3c78e32e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'a9e3167247b50fd984365bedb4503853') in 0.001641 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_6.prefab
-  artifactKey: Guid(75b68f1793538fd4ba08a48d5cf23b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_6.prefab using Guid(75b68f1793538fd4ba08a48d5cf23b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'a3f2eb7800bab180241a2cef95188af0') in 0.001699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_24.prefab
-  artifactKey: Guid(31a58175657617c4f8b8414328791656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_24.prefab using Guid(31a58175657617c4f8b8414328791656) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '950bb2cdf951df0e43fd16ce84ad7137') in 0.001621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_13.prefab
-  artifactKey: Guid(4432985f54b0fd840ae4db0c692070e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_13.prefab using Guid(4432985f54b0fd840ae4db0c692070e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '43d3f9f39e67c2815685baf723ac69bf') in 0.001729 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_22.prefab
-  artifactKey: Guid(d1dc1872130e74b4c958ac0fc5c0671a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_22.prefab using Guid(d1dc1872130e74b4c958ac0fc5c0671a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'f4c5e746f6c08c3af2a69c759fbc9d90') in 0.001837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_12.prefab
-  artifactKey: Guid(8e915b3c2771afe458836b76fa7c948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_12.prefab using Guid(8e915b3c2771afe458836b76fa7c948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '185af04ae190a2d43a157ff1f9cf0d2f') in 0.001798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
